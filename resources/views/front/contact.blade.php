@@ -6,7 +6,7 @@
 
 
 
-    <div class="col-md-8">
+    <div class="col-md-12">
         @if(session('success'))
             <div class="alert alert-success">
                 {{session('success')}}
@@ -64,10 +64,5 @@
             </div>
         </form>
     </div>
-    <div class="col-md-4">
-        <div class="card card-default">
-            <div class="card-body">Panel Content</div>
-            adress: bla bla bla
-        </div>
-    </div>
+
 @endsection
